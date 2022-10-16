@@ -13,7 +13,7 @@ public class MainPanel extends JPanel
         Graphics2D g2 = (Graphics2D) g;
         // 绘制
         setBackground(Color.BLACK);
-        Image image = new ImageIcon("src/assets/woodfish.png").getImage();
+        Image image = new ImageIcon("image/woodfish.png").getImage();
 
         g2.drawImage(image,
                 -10 , 100,
